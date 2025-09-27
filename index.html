@@ -18,17 +18,19 @@
       height: 100%;
       max-width: 1000px;
       max-height: 800px;
+      background-color: #111;
     }
   </style>
 </head>
 <body>
-  <model-viewer src="casa1.glb"
-                alt="Modelo 3D de la Casa"
-                auto-rotate
-                camera-controls
-                ar
-                shadow-intensity="1">
+  <model-viewer 
+      src="./casa1.glb"
+      alt="Modelo 3D de la Casa"
+      auto-rotate
+      camera-controls
+      ar
+      shadow-intensity="1"
+      loading="eager">
   </model-viewer>
 </body>
 </html>
-
